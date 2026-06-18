@@ -19,6 +19,9 @@ services:
     # example/backend adalah image yang akan dijalankan
 
     volumes:
+
+    # atau bisa ga pke short syntax
+
       # Daftar mount yang akan dipasang ke container
       #
       # Volume digunakan agar:
@@ -107,8 +110,13 @@ services:
 
 volumes:
   # Daftar named volume
+#   yang akan di pake di contianre ini ya
+
+  volume_test:
+    name: volume_test
 
   db-data:
+    name: db-data
     # Nama volume
     #
     # Docker akan membuat volume:
@@ -121,3 +129,9 @@ volumes:
     #
     # Windows Docker Desktop:
     # berada di dalam VM Docker
+
+
+# nah kita kan katanyabisa apus contianer, network dan iamge pake perintah docker compose down
+# nah hal ini engga akan ngehapus si volumenya
+
+# maknaya untuk hapus volume ini, kita hanya bisa pake perntah docker volume rm namaVolume
