@@ -36,3 +36,26 @@ ports:
 
 
 # dan ports ini selars ya sama image dn container_name
+
+services:
+  nginx-port1:
+    image: nginx: latest
+    container_name: nginx-port1
+    ports:
+      - protocol: tcp
+        published: 8080
+        target: 80
+
+  nginx-port2:
+    image: nginx:latest
+    container_name: nginx-port2
+    ports:
+     - protocol: tcp
+       published: 8081
+       target: 80
+
+  nginx-port3:
+    image: nginx:latest
+    container_name: nginx-port3
+    ports:
+     - 8000:80
