@@ -1,0 +1,48 @@
+# jdai ini adalah kode hasil konversi file example.json ke file .yml
+
+company:
+  name: "Tech SOlutions"
+  founded: 2020
+  active: true
+  address:
+    street: "Jl. Merdeka No.10"
+    city: "Bandung"
+    country: "Indonesia"
+  employees:
+    - id: 1
+      name: "Rafa"
+      position: "Full Stack & Mobile & Cloud Engineer"
+      skills:
+        - banyak
+        - banyak
+      projects: 
+        - name: "Pos"
+          status: "Completed"
+        - name: "Inventory"
+          status: "In-Progress"
+    - id: 2
+      name: "Jamal"
+      position: "Full Stack"
+      skills:
+        - Docker
+        - Go
+      projects: 
+        - name: "cashier"
+          status: "Completed"
+        - name: "Inventory"
+          status: "In-Progress"
+  departements: 
+    - name: "Engineering"
+      budget: 5000
+      teams: 
+        - name: "Backend Team"
+          members: 5
+        - name: "Frontend Team"
+          members: 4
+    - name: "Operations"
+      budget: 5000
+      teams: 
+        - name: "DevOps Team"
+          members: 3
+
+

@@ -1,0 +1,76 @@
+{
+  "company": {
+    "name": "Tech Solutions",
+    "founded": 2020,
+    "active": true,
+    "address": {
+      "street": "Jl. Merdeka No. 10",
+      "city": "Bandung",
+      "country": "Indonesia"
+    },
+    "employees": [
+      {
+        "id": 1,
+        "name": "Rafa",
+        "position": "Backend Developer",
+        "skills": [
+          "Go",
+          "Docker",
+          "MySQL"
+        ],
+        "projects": [
+          {
+            "name": "POS System",
+            "status": "completed"
+          },
+          {
+            "name": "Inventory App",
+            "status": "in-progress"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Jamal",
+        "position": "DevOps Engineer",
+        "skills": [
+          "Linux",
+          "Docker",
+          "Kubernetes"
+        ],
+        "projects": [
+          {
+            "name": "CI/CD Pipeline",
+            "status": "completed"
+          }
+        ]
+      }
+    ],
+    "departments": [
+      {
+        "name": "Engineering",
+        "budget": 50000000,
+        "teams": [
+          {
+            "name": "Backend Team",
+            "members": 5
+          },
+          {
+            "name": "Frontend Team",
+            "members": 4
+          }
+        ]
+      },
+      {
+        "name": "Operations",
+        "budget": 20000000,
+        "teams": [
+          {
+            "name": "DevOps Team",
+            "members": 3
+          }
+        ]
+      }
+    ]
+  }
+}
