@@ -1,0 +1,4 @@
+services:
+  simple_nginx:
+    container_name: "simple_nginx"
+    image: nginx:latest
