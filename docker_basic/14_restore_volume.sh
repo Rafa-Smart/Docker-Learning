@@ -1,0 +1,1 @@
+# sebenrnya ktia bsa langusng resore aja atua imprt file secara otomatis didalam docker dekstopnya
