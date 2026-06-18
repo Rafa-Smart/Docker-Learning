@@ -15,7 +15,7 @@
 # 3. setealh tag itu adalah folder dimana Dockerfile nya berada, nahh, jadi didalam folder itu hanya boleh ada satu file tnapa extensi yang bernama Dockerfile ya, sebernnay bis aja sih beda, ya namanya tidka Dockerfile, tpai ini ebst practice  
 
 # contoh dua
-# docker build -t khadafi/app:1.0.0-t khannedy/app:latest folder-dockerfile
+# docker build -t khadafi/app:1.0.0 -t khannedy/app:latest folder-dockerfile
 # ktia juga bisa membaut docker iamge bebrapa kali sekaligus berdasaarkan satu Dockerfile
 # msailnya kti buat di folder 1_from ya
 # FROM alpie:latest
