@@ -1,8 +1,15 @@
 Saat kita menjalankan file menggunakan Docker Compose, secara default semua container akan
 dihubungkan dalam sebuah Network bernama nama-project_default
 Jadi sebenarnya kita tidak perlu membuat Network secara manual
+# karea udha di buatin satu network utnuk satu file configurtion nya ini
+
 Silahkan inspect container yang sudah berjalan menggunakan Docker Compose, lalu lihat pada
 bagian Network
+
+
+# nah, dan juga kalo ktia mau contianer ini engga bisa nymbungke continer lain maka kita bisa pake perintah ini
+If you want the service to not be connected a network, you must set network_mode: none.
+
 services:
 
   app:
@@ -12,7 +19,7 @@ services:
 
     image: nginx
     # Image yang digunakan
-
+    # network_mode: none -> kalo ga mau nyambung
     networks:
       - frontend
       - backend
