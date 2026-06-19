@@ -1,0 +1,5 @@
+services:
+  app:
+    environment:"development"
+# jadi nanit peritahnya tinggal
+docker compose -f docker-compose.yml -f dev.yml

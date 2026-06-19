@@ -1,0 +1,5 @@
+services:
+  app:
+    environment:"production"
+# jadi nanit peritahnya tinggal
+docker compose -f docker-compose.yml -f prod.yml

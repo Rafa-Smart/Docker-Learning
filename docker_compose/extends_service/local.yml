@@ -1,0 +1,6 @@
+services:
+  app:
+    environment:"local"
+
+# jadi nanit peritahnya tinggal
+docker compose -f docker-compose.yml -f local.yml
