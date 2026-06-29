@@ -974,6 +974,8 @@ def footer_page(canvas, doc):
     canvas.line(2*cm, 1.5*cm, A4[0]-2*cm, 1.5*cm)
     canvas.restoreState()
 
+
+# tuty
 # ── BUILD PDF ────────────────────────────────────────────────────────────────
 output_path = "Panduan_Belajar_TKA_SMK_2026.pdf"
 doc = SimpleDocTemplate(
