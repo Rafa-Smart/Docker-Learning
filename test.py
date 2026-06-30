@@ -986,6 +986,8 @@ def footer_page(canvas, doc):
 # tuty
 # tuty
 # tuty
+# tuty
+# tuty
 # ── BUILD PDF ────────────────────────────────────────────────────────────────
 output_path = "Panduan_Belajar_TKA_SMK_2026.pdf"
 doc = SimpleDocTemplate(
